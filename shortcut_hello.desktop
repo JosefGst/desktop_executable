@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Terminal=true
+Name=Click-Script
+# Icon=utilities-terminal
+Icon=/home/u/Desktop/desktop_executable/icons/robot_icon_red.png
+# run a shell script
+Exec=gnome-terminal -e "bash -c './Desktop/desktop_executable/shell/hello.sh;$SHELL'"
+Categories=Application;

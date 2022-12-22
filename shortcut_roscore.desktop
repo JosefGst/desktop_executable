@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Terminal=true
+Name=move_robot
+# Icon=utilities-terminal
+Icon=/home/u/Pictures/robot_icon.png
+# run roscore
+Exec=gnome-terminal -e "bash -c 'source /opt/ros/melodic/setup.bash && roscore;$SHELL'"
+Categories=Application;
+
