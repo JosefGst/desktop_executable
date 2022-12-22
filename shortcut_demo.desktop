@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Terminal=true
+Name=demo
+# Icon=utilities-terminal
+Icon=/home/lscm/Desktop/desktop_executable/icons/robot_icon.png
+# roslaunch demo demo.launch
+Exec=gnome-terminal -e "bash -c 'source /opt/ros/kinetic/setup.bash && source ~/deliverybot_ws/devel/setup.bash && roslaunch demo demo.launch;$SHELL'"
+Categories=Application;

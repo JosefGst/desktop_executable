@@ -1,8 +1,0 @@
-[Desktop Entry]
-Type=Application
-Terminal=true
-Name=static_robot
-# Icon=utilities-terminal
-Icon=/home/u/Pictures/robot_icon_static.png
-Exec=gnome-terminal -e "bash -c './museum_startup_no_ros.sh;$SHELL'"
-Categories=Application;

@@ -1,7 +1,7 @@
 [Desktop Entry]
 Type=Application
 Terminal=true
-Name=move_robot
+Name=roscore
 # Icon=utilities-terminal
 Icon=/home/u/Pictures/robot_icon.png
 # run roscore
